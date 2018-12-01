@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+body {
+    background-color: #f2f0eb;
+      border: 10px solid #948b80;
+
+   
+}
+
+p {
+    text-align: center;
+    color: #FFA07A	;
+    font-family: Arial;
+    position: relative;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+
+form {
+    text-align: center;
+    
+}
